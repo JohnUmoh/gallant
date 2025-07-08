@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  background: url('assets/mvp-lifeline-wallpaper.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  padding: 1.5rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+/* Container */
+.container {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.5);
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+/* Logo */
+.logo img {
+  max-width: 140px;
+  margin: 0 auto 1.5rem;
+}
+
+/* Language Selector */
+.language-selector {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.language-selector label {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  color: #fff;
+}
+
+.language-selector select {
+  padding: 0.4rem 0.7rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* Greeting */
+.greeting {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.greeting span {
+  color: #e60000;
+}
+
+/* Modules */
+.modules {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  padding: 1rem;
+  background-color: #111;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.card.red {
+  background-color: #e60000;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Mockup Image */
+.mockup {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.mockup img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
